@@ -93,6 +93,7 @@ const Hero = () => {
 				</Box>
 			</Container>
 			<Box
+				display={{ md: 'none', base: 'block' }}
 				bg={'url(/4x.png)'}
 				backgroundPosition={'right'}
 				mt={3}
