@@ -8,7 +8,8 @@ const App = () => {
 			<Box
 				w={'full'}
 				h={'100vh'}
-				backgroundImage={'url(/4x.png)'}
+				backgroundImage={{ md: 'url(/4x.png)', base: '' }}
+				backgroundColor={'#2F1F6F'}
 				backgroundSize={'cover'}
 				backgroundRepeat={'no-repeat'}
 			>
